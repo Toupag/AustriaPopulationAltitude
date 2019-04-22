@@ -1,0 +1,4 @@
+The workflow in the preprocessing of the data is the following:
+First the csv's are loaded. These are used in order to get a DataFrame that has the population data and human readable columns for the Bezirk and Year.
+Secondly every Bezirk is used in order to query DBpedia and the the altitude.
+Lastly all this data is merged and saved as a new csv that includes the population per Bezirk and the altitude of the main city of every Bezirk.
