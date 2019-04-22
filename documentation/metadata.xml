@@ -1,0 +1,18 @@
+<dataset>
+    <author>David Wagner</autor>
+    <license>Creative Commons Attribution 4.0 International</license>
+    <description>The dataset contains information of the Austrian Population in the year 2011. Is is grouped by Bezirk and the elevation of the main city of each Bezirk is added. This data was inted to be used for analysis on the average altitude at which Austrians live.</description>
+    <doi>https://doi.org/10.5281/zenodo.2648511</doi>
+    <version>1.0</version>
+</dataset>
+<table>
+    <columns>
+        <Year>The Year in which the population was recored. In this case it will be 2011 for all of the entries</Year>
+        <Bezirk>Name of the Bezirk in Austria for which the data was recorded</Bezirk>
+        <altitude>Altidude of the main city of the Bezirk. In case of rural area the main city around wich the rural area is located is used.</altitude>
+        <CumSum>The cumulative sum of inhabitants - ordered by altitude starting from the minimum value.</CumSum>
+        <PercentPop>The percent of the full population of Austria that live in this Bezirk</PercentPop>
+        <CumPercentPop>The cumulative percent of all inhabitants of Austria - ordered by altitude starting from the minimum value.</CumPercentPop>
+    </columns>
+    <rows>Each row represents one Bezirk with all its according data.</rows>
+</table>
